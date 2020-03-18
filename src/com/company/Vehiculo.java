@@ -10,12 +10,12 @@ public abstract class Vehiculo {
     private Double aceleracion;
     private Double anguloDeGiro;
     private String patente;
-    private Double peso;
+    private Integer peso;
     private Integer ruedas;
 
     //constructor
 
-    public Vehiculo(Double velocidad, Double aceleracion, Double anguloDeGiro, String patente, Double peso, Integer ruedas) {
+    public Vehiculo(Double velocidad, Double aceleracion, Double anguloDeGiro, String patente, Integer peso, Integer ruedas) {
         this.velocidad = velocidad;
         this.aceleracion = aceleracion;
         this.anguloDeGiro = anguloDeGiro;
